@@ -16,9 +16,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    
-    # i create dictionaries to avoid user's typos
+
     citydict = { 1: "chicago", 2: "new york city", 3: "washington"}
     monthdict = { 0: "all", 1: "january", 2: "february", 3: "march", 4: "april", 5: "may", 6:"june"}
     daydict = { 0: "all", 1: "monday", 2: "tuesday", 3: "wednesday", 4: "thursday", 5: "friday", 6: "saturday", 7: "sunday"}
